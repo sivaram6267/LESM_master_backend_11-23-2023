@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ls.lesm.controller.TestTransferController
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.959 s <<< FAILURE! - in ls.lesm.controller.TestTransferController
+testgetEmployeesByDesignation  Time elapsed: 0.921 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "ls.lesm.service.impl.TransferEmployeeService.GetEmployees(int)" because "this.transferEmployeeService" is null
+	at ls.lesm.controller.TestTransferController.testgetEmployeesByDesignation(TestTransferController.java:36)
+
